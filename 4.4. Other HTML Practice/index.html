@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html lang="en">    
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other HTML Functions</title>
+
+</head>
+
+<body>
+
+<h1> Other HTML Functions </h1>
+<h2> Things I learned from <a href="https://youtu.be/HD13eq_Pmp8?si=DFfIeBRJGJBrDpF3" target="_blank">BroCode's 1-Hour Video </a></h2>
+
+
+    <br />
+    <br />
+    <hr />
+
+
+<ul>
+    <li><b>Hyperlink-related</b> 
+        <ol>
+            <li> <a href="Sample page.html" target="_blank"> Auto-open a link in a new tab upon clicking </a></li>
+            <li> <a href="Sample page.html" target="_self" title="Sample title on a hyperlink">Title on a Hyperlink</a></li>
+        </ol>
+    </li>
+
+    <br />
+    <br />
+    <hr />
+
+    <li> <b>Image-related</b>
+        <ol>
+            <li> Height/Width </li>
+                <img src="./assets/images/cat pic.jpg" alt="picture of white kitten with black ears and forehead" title="cat with a black forehead" height="200"/>
+            
+            <br />  
+            <br />
+            
+            <li> Adding a title to an image </li>
+                <img src="./Assets/Images/cat slap.jpg" alt="picture of a cat looking like he's about to punch you" title="this cat will skippity pap you" height="150" />
+                
+                
+        </ol>
+    </li>
+
+    <br />
+    <br />
+    <hr />
+
+    <li> <b>Audio-related</b>
+        <ol>
+            <li>Adding an audio file to a webpage </li>
+            <li>Controls</li>
+                <audio src="./Assets/Audio/meowmeowmeowmeow.mp3" controls title="meow"></audio>
+            
+            <li>Adding extra sources in case the file is not supported by the browser</li>
+                <audio controls>
+                    <source src="./assets/audio/meowmeowmeowmeow.mp3" type="audio/mp3">
+                </audio>
+
+                
+            <li>Mute</li> 
+             <audio src="./Assets/Audio/meowmeowmeowmeow.mp3" controls muted></audio>
+
+            <li>Autoplay
+                (open <a href="autoplaytest.html">this link</a> for autoplay sample)
+            </li>
+            <li>Loop</li>
+              <audio src="./Assets/Audio/meowmeowmeowmeow.mp3" controls loop></audio>  
+
+
+        </ol>
+    </li>
+   
+    <br />
+    <br />
+    <hr />
+
+    <li> <b>Video-related</b>
+        <ol>
+            <li>Adding a video file to a webpage </li>
+            <li>Adding extra sources in case the file is not supported by the browser</li>
+            <li>Controls</li>
+            <li>Mute</li>
+            <li>Autoplay</li>
+            <li>Loop</li>
+
+        <video controls height="300" width="300" title="cats on English language" autoplay loop muted>
+            <source src="./Assets/Video/cat-vid-from-tiktok.mp4" type="video/mp4">
+            Your browser does not support the video tag. 
+        </video>    
+         
+        <p>Note: These functions are the same as those in audio</p>
+        </ol>
+    </li>
+    
+    <br />
+    <br />
+    <hr />
+
+    <li><b>Text Formatting Tags</b>
+        <ul>
+            <li> <b>bold</b>                </li>
+            <li> <i>Italic</i>              </li>
+            <li> <big>big text</big>        </li>
+            <li> <small>small text</small>  </li>
+            <li> <sub>subscript</sub>       </li>
+            <li> <sup>superscript</sup>     </li>
+            <li> <ins>underlined</ins>      </li>
+            <li> <del>strikethrough</del>   </li>
+            <li> <mark>highlighted</mark>   </li>
+        </ul>
+    
+    </li>
+
+    <br />
+    <br />
+    <hr />
+
+    <li><b> <a href="Sample page.html"> Description Lists </a></b></li>
+    
+    <br />
+    <br />
+    <hr />
+
+    <li><b>Span</b>
+        <ul>
+            <li> You can use <span style="color: blueviolet">span</span>  to add <span style="color:brown">markup</span> to texts or a portion of it. </li>
+        </ul>
+    </li>
+
+
+    <br />
+    <br />
+    <hr />
+
+    <li><a href="Sample page.html"> <b>Div</b> </a></li>
+    <br />
+    <br />
+    <hr />
+
+
+    <li><b>iFrame</b></li>
+        <iframe src="Sample page.html" title="sample" height="200"> Sample Page </iframe>
+
+    <br />
+    <br />
+    <hr />
+
+    <li><b>Button</b></li> <br />
+        <button> Click Me </button> <br /> <br/>
+        <a href="Samplepage2.html"><button> Take me to another Sample Page </button></a> <br /> <br/>
+        <button disabled> I am a disabled button </button> <br /> <br/>
+
+        <a href="autoplaytest.html"><button> <img src="Assets/Images/sad-cat.jpg" height="50" width="80"> <br/> Press the cat </button></a> 
+    <br />
+    <br />
+    <hr />
+
+
+    <li><b>Tables</b></li>
+    <table border="5" width="1500">
+      <tr  style="background-color: lemonchiffon;">
+        <th width="100" align="center"> Species </td>
+        <td width="200" align="center"> Cat </td>
+        <td width="200" align="center"> Dog </td>
+        <td width="200" align="center"> Rabbit </td>
+        <td width="200" align="center"> Goat </td>
+     
+      </tr>
+
+      <tr  style="background-color: lemonchiffon;">
+        <th width="100" align="center"> Photo </th>
+        <td align="center"> <img src="Assets/Images/Catty.jpg" height="200" alt="photo of a calico cat"> <br /> Callison </td>   
+        <td align="center"> <img src="Assets/Images/Doggy.avif" height="200" alt="photo of a golden retriever dog smiling"> <br /> Georgina </td> 
+        <td align="center"> <img src="Assets/Images/Rabbitty.jpg" height="200" alt="photo of a white-grey rabbit"> <br /> Hopper </td>  
+        <td align="center"> <img src="Assets/Images/Goaty.jpg" height="200" alt="photo of a goat"> <br /> Parker </td>  
+      
+      </tr>
+
+      <tr  height="30"  style="background-color:rgb(255, 203, 255);">
+        <th width="100" align="center"> Age </th>
+        <td align="center"> 9 months </td>
+        <td align="center"> 14 months </td>
+        <td align="center"> 6 months </td>
+        <td align="center"> 4 months </td>
+      </tr>
+      
+      <tr  height="30" style="background-color: lightgreen;">
+        <th width="100" align="center"> Gender </th>
+        <td align="center"> Female </td>
+        <td align="center"> Female </td>
+        <td align="center"> Male </td>
+        <td align="center"> Male </td>
+      </tr>
+
+
+      <tr  height="30" style="background-color: rgb(213, 177, 255);">
+        <th width="100" align="center"> Favorite Food </th>
+        <td align="center"> Tuna </td>
+        <td align="center"> Chicken </td>
+        <td align="center"> Carrots </td>
+        <td align="center"> Grass </td>
+      </tr>
+
+
+    </table>
+    <br />
+    <br />
+    <hr />
+
+    <li><a href="Samplepage2.html"> <b>Forms</b> </a> </li>
+    
+
+    </br>
+</ul>
+
+
+</body>
+</html>
