@@ -1,0 +1,44 @@
+
+
+html {
+    background-color: black;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+
+#red {
+    color: red;
+}
+
+
+#blue {
+    color: blue;
+}
+
+#orange {
+    color:orange
+}
+
+#green {
+    color:green
+}
+
+#yellow {
+    color:yellow
+}
+
+img {
+    height:200px;
+    width:200px;
+}
+
+.color-title {
+    font-weight: normal;
+}
